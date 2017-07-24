@@ -1,0 +1,242 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background: url(denglu-bg.png)/*tpa=http://huan521.com/smartisan/image/denglu-bg.png*/;
+	font-size: 14px;
+	font-family: "微软雅黑"；
+}
+.box{
+	width:455px;
+	height: 520px;
+	margin: 0 auto;
+	margin-top:80px;
+	border:1px solid #e8e8e8;
+	border-radius:10px;
+	box-shadow: 0 9px 30px -6px rgba(0,0,0,.3);
+	background-color: #fff;
+}
+.logo{
+	margin: 0 auto;
+	width:455px;
+	text-align: center;
+}
+
+.logo img{
+	margin-bottom: -20px;
+}
+.logo h4{
+	font-size: 21px;
+	padding-bottom: 20px;
+}
+
+#oinput{
+	width:375px;
+	margin:30px auto 0;
+	position: relative;
+}
+
+#oinput input{
+	width:310px;
+	height: 50px;
+	margin-bottom:15px;
+	border:1px solid #e8e8e8;
+	border-radius:10px; 
+	line-height: 48px;
+	font-size: 20px;
+	padding:0 10px 0 60px;
+	font-weight: normal;
+	outline: none;
+	opacity: 0.8;
+}
+
+#oinput input:hover{
+	opacity: 1;
+}
+
+#oinput .border-on{
+	border:1px solid #4F7ADD;
+}
+
+.textBg,.passwordBg{
+	width:48px;
+	height: 48px;
+	display: block;
+	background: url(input-icon.png)/*tpa=http://huan521.com/smartisan/image/input-icon.png*/;
+	position: absolute;
+	background-color: #F8F8F8;
+	border:1px solid #e8e8e8;
+	border-radius:10px 0 0 10px;
+}
+
+.textBg{
+	top:1px;
+	left:1px;
+}
+
+.passwordBg{
+	background-position: -47px 0;
+	top: 68px;
+	left:1px;
+}
+
+::-webkit-input-placeholder{
+	font-size: 16px;
+	color: #999;
+	font-weight: normal;
+	line-height: 50px;
+}
+
+::-moz-placeholder{
+	font-size: 16px;
+	color: #666;
+	font-weight: normal;
+	line-height: 50px;
+}
+
+.tit{
+	width:375px;
+	margin:0 auto;
+	color:#999;
+	font-size: 10px;
+}
+
+.tit label{
+	display: inline-block;
+	width:20px;
+	height: 20px;
+	line-height: 20px;
+	position: relative;
+	background: url(label.png)/*tpa=http://huan521.com/smartisan/image/label.png*/ no-repeat 0 -20px ;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+input[type="checkbox"]:checked+label{
+	background-position: 0px 0px;
+}
+
+input[type="checkbox"]{
+	display: none;
+}
+
+.tit-text{
+	float: right;
+}
+
+.tit-text a{
+	color:#4F7ADD;
+	opacity: 0.8;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 20px;
+}
+
+.tit-text a:hover{
+	opacity: 1;
+}
+
+.tit-text span{
+	color:#e8e8e8;
+	margin: 5px;
+}
+
+.dengLu{
+	height: 50px;
+	width:375px;
+	margin:20px auto;
+	background-color:#4F7ADD;
+	border:none;
+	border-radius: 10px;
+	display: block;
+	font-size: 20px;
+	color:#fff;
+	opacity: 0.9;
+}
+
+.dengLu:hover{
+	opacity: 1;
+}
+
+.link{
+	width:375px;
+	margin:0 auto;
+	border-top: 1px solid #e8e8e8;
+	font-size: 12px;
+	color:#999;
+	padding:20px 0;
+}
+
+.telLink{
+	display: block;
+	float: right;	
+}
+
+.link a:hover{
+	color:#4F7ADD;
+}
+
+.link a{
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	vertical-align: bottom;
+	font-size: 12px;
+	color: #999;
+	text-decoration: none;
+}
+
+.icon1,.icon2,.icon3{
+	width:16px;
+	background: url(qqicon1.png)/*tpa=http://huan521.com/smartisan/image/qqicon1.png*/;
+	margin-right: 10px;
+	cursor: pointer;
+	transition:0.01s;
+}
+
+.icon2{
+	background-position: -32px 0;
+}
+
+.icon3{
+	background-position: -64px 0;
+}
+
+.icon1:hover,.icon2:hover,.icon3:hover{
+	background: url(QQicon.png)/*tpa=http://huan521.com/smartisan/image/QQicon.png*/;
+}
+
+.icon2:hover{
+	background-position: -32px 0;
+}
+
+.icon3:hover{
+	background-position: -64px 0;
+}
+
+.copyright{
+	width:700px;
+	margin:80px auto 50px;
+	line-height: 30px;
+	font-size: 12px;
+	color:#666;
+	text-align: center;
+
+}
+
+.copyright a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #4F7ADD;
+	opacity: 0.9;
+}
+
+
+.copyright a:hover{
+	opacity: 1;
+}
+
+.copyright .copyr{
+	font-weight: 900;
+}

@@ -1,0 +1,287 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+	font-size:14px;
+}
+
+.headBtn{
+	height: 100px;
+	float: right;
+}
+
+.headBtn a{
+	color: #4D4D4D;
+	padding: 0 5px;
+	line-height: 10px;
+	position: relative;
+	top: -2px;
+}
+
+.headBtn:hover a{
+	color:#999;
+	text-decoration: none;
+}
+
+.headBg{
+	width: 10px;
+	height: 20px;
+	display: inline-block;
+	background: url(head-icon.png)/*tpa=http://huan521.com/smartisan/image/head-icon.png*/ no-repeat -20px 0;
+	padding-right: 10px;
+}
+
+.headBtn:hover .headBg{
+	background-position: 0 0 ;
+	}
+
+.headBg1{
+	width: 10px;
+	height: 20px;
+	display: inline-block;
+	background: url(head-icon.png)/*tpa=http://huan521.com/smartisan/image/head-icon.png*/ no-repeat -20px -20px;;
+	padding-right: 10px;
+}
+
+.headBtn:hover .headBg1{
+	background-position: 0  -20px;
+}
+
+.headTit{
+	position: absolute;
+	top:75px;
+	width:168px;
+	height: 350px;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	display: none;
+	box-shadow:-2px 10px 20px rgba(0,0,0,.2),0 0 1px rgba(0,0,0,.04) inset;
+}
+
+#arrow{
+	position: absolute;
+	top: 65px;
+	right: 135px;
+	width: 0;
+	height: 0;
+	border-left:8px solid #000;
+	border-right: 8px solid #000;
+	border-bottom: 10px solid #fff;
+	display: none;
+}
+
+.headcontTel img{
+	width:50px;
+	height: 50px;
+	border-radius: 50%;
+	margin:10px 60px 0;
+}
+
+.headcontTel p{
+	position: relative;
+	top: -70px;
+	text-align: center;
+	color:#666;
+}
+
+.headList {
+	position: relative;
+	top: -100px;
+}
+
+.headList  li{
+	width: 100%;
+	border-top: 1px solid #e8e8e8;
+
+}
+
+.headmain .headList li a{
+	display: block;
+	color:#666;
+	font-size: 10px;
+	padding:15px 0;
+	text-align: center;
+		height: 10px;
+	line-height: 15px;
+
+}
+
+.headmain .headList li:hover{
+	background-color: #FAFAFA;
+}
+.headList li:hover .headList li a{
+	color:#666;
+}
+.pur,.ticket,.invent{
+	width:1125px;
+	height: 280px;
+	background: #fff;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	margin:40px auto;
+	box-shadow: rgba(0,0,0,.12) 0 1px 8px;
+}
+
+.pur h3,.ticket h3,.invent h3{
+	padding-left: 20px;
+	line-height: 60px;
+	font-size: 18px;
+	color: #666;
+	border-bottom: 1px solid #ccc;
+	font-weight: normal;
+}
+
+.purAddr{
+	width:260px;
+	height: 165px;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	background-color:#FAFAFA;
+	margin: 20px;
+}
+
+.purAddr span{
+	font-weight: 900;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	top: 40%;
+	color:#ccc;
+}
+
+.purAddr a{
+	display: block;
+	line-height: 150px;
+	text-align: center;
+	color:#ccc;
+}
+
+.purAddr:hover{
+	background-color: #f2f2f2;
+}
+
+.invent{
+	height:auto;
+	color: #666;
+
+}
+
+.ticketText{
+	margin-top: 15px;
+	padding-left: 20px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #666;
+}
+
+.ticketText input{
+	margin: 0 10px;
+}
+
+.inventBox{
+	height: 20px;
+	line-height: 20px;
+	background-color: #E6E7E8;
+	padding: 10px 50px 10px 30px;
+	color: #666;
+	font-size: 14px;
+}
+
+.inventBox p{
+	float: left;
+} 
+
+.inventBox ul,.inventContent ul{
+	float: right;
+}
+
+.inventBox li,.inventContent li{
+	float: left;
+	margin-left:150px;
+}
+
+.inventContent{
+	height: 100px;
+	padding: 10px 30px;
+	line-height: 100px;
+	color: #666;
+	border-bottom: 1px solid #e8e8e8;
+
+}
+
+.inventContent img{
+	vertical-align: middle;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ccc;
+	border-radius:5px;
+	margin-right: 20px;
+}
+
+.inventContent a{
+	color:#666;
+}
+
+.inventPrice{
+	height: 90px;
+	line-height: 30px;
+	padding: 30px 30px;
+	border-bottom:1px solid #e8e8e8;
+}
+
+.inventPrice p{
+	float: right;
+	font-size: 18px;
+}
+
+.inventBtn{
+	height: 60px;
+	padding:20px;
+	color: #666;
+}
+.inventBtn a{
+	display:block;
+	width: 155px;
+	height: 50px;
+	background: #5c81e3;
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 10px;
+	margin-left: 20px;
+	float: right;
+	opacity: 0.8;
+}
+
+.inventBtn a:hover{
+	opacity: 1
+}
+
+.inventBtn p{
+	float: right;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+#goTop{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	opacity: 0.7;
+	cursor: pointer;
+	display: none;
+}
+
+#goTop:hover{
+	opacity: 1;
+}
